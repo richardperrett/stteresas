@@ -41,6 +41,7 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <link href="bitsandbobs.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -59,8 +60,8 @@
      </script> 
 
 
-
-
+ 
+    
 
 
 
@@ -88,7 +89,7 @@
 
                 <li><a href="Facilities.html" style="font-size: 13pt">Facilities</a></li>
 
-                <li><a  href="#" role="button" style="margin-left: 350px; color: #7b097f; font-size: 13pt" onclick="javascript: window.open('BookingForm.html', 'Booking Form', 'width=780,height=900');">Book Now &raquo;</a></li>
+                <li><button type="button" class="btn btn-info btn-sm" style="margin-left: 300px" data-toggle="modal" data-target="#bookNow">Book Now</button></li>
 
 
                 <!--
@@ -257,6 +258,72 @@
             <p style="color: #dedede">Website and Photography by Richard Perrett. </p>
          </div>
       </footer>
+
+      <!-- Modal Book Now Dialogue-->
+      <div id="bookNow" class="modal fade" role="dialog" >
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Book a Room</h4>
+            </div>
+            <div class="modal-body">
+              <table>
+                <tr>
+                  <td class="RoomTitle">Room 1</td>
+                  <td class="RoomText">A double ensuite room facing the rear of the hotel.   <a href="https://www.airbnb.co.uk/rooms/20385438" target="_blank" class="RoomLink">more info ....   </a></td>
+                  <td><a href="https://www.airbnb.co.uk/rooms/20385438" target="_blank" class="btn btn-success btn-sm" style="margin-left: 15px">Book Room</a></td>
+                <tr>  
+
+                <tr>
+                    <td class="RoomTitle">Room 2</td>
+                    <td class="RoomText">A twin ensuite room facing the rear of the hotel.   <a href="https://www.airbnb.co.uk/rooms/20401748" target="_blank" class="RoomLink">more info ....   </a></td>
+                    <td><a href="https://www.airbnb.co.uk/rooms/20401748" target="_blank" class="btn btn-success btn-sm" style="margin-left: 15px">Book Room</a></td>
+                <tr>
+                <tr>
+                    <td class="RoomTitle">Room 3</td>
+                    <td class="RoomText">A Superior double room with ensuite facing the front of the hotel.   <a href="https://www.airbnb.co.uk/rooms/20353383" target="_blank" class="RoomLink">more info ....   </a></td>
+                    <td><a href="https://www.airbnb.co.uk/rooms/20353383" target="_blank" class="btn btn-success btn-sm" style="margin-left: 15px">Book Room</a></td>
+                <tr>  
+
+                <tr>
+                    <td class="RoomTitle">Room 4</td>
+                    <td class="RoomText">A double ensuite room facing the front of the hotel.   <a href="https://www.airbnb.co.uk/rooms/20405153" target="_blank" class="RoomLink">more info ....   </a></td>
+                    <td><a href="https://www.airbnb.co.uk/rooms/20405153" target="_blank" class="btn btn-success btn-sm" style="margin-left: 15px">Book Room</a></td>
+                <tr>
+
+                <tr>
+                    <td class="RoomTitle">Room 5</td>
+                    <td class="RoomText">A Superior double room with ensuite facing the front of the hotel.   <a href="https://www.airbnb.co.uk/rooms/20416877" target="_blank" class="RoomLink">more info ....   </a></td>
+                    <td><a href="https://www.airbnb.co.uk/rooms/20416877" target="_blank" class="btn btn-success btn-sm" style="margin-left: 15px">Book Room</a></td>
+                <tr>  
+
+                <tr>
+                    <td class="RoomTitle">Suite 6</td>
+                    <td class="RoomText">A suite comprising double bedroom, small annez room and bathroom.   <a href="https://www.airbnb.co.uk/rooms/20417049" target="_blank" class="RoomLink">more info ....   </a></td>
+                    <td><a href="https://www.airbnb.co.uk/rooms/20417049" target="_blank" class="btn btn-success btn-sm" style="margin-left: 15px">Book Room</a></td>
+                <tr>
+    
+        
+
+
+
+
+              </table>  
+
+
+
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
 
 
     <!-- Bootstrap core JavaScript
