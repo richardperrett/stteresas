@@ -47,15 +47,21 @@
 ================================================== -->
   <body>
 
-    <script type="text/javscript">
+    <script type="text/javascript">
 
 
-      function openBookForm() {
+      function openBookForm(){
 
       var myWindow = window.open("https://docs.google.com/forms/d/e/1FAIpQLScCVXW7BcH0-lMacQpf039oifn-RZJUjh4gWseH-ZFBEleVww/viewform", "Booking Form", "width=200,height=100");
 
       }
 
+      function openTour(){
+      
+        var myWindow = window.open("https://cdn.instavr.co/html/yxKxvxHpfS0i9lhNFVBy_app.html?bust=9ra2a3qx3zc", "St Teresa's Tenby - Virtual Tour");
+        
+      }
+     
 
      </script> 
 
@@ -85,15 +91,23 @@
                 <li class="active"><a href="Location.html" style="font-size: 13pt">Location</a></li>
               
                 <li><a href="Rooms.html" style="font-size: 13pt">Rooms</a></li>
-                
 
+                <li class="dropdown">
+                    <a href="#"  style="font-size: 13pt" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Facilities<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="Facilities.html">General Facilities</a></li>
+                      <li><a href="Facilities.html#ArchKitchenInfo">The Arch Kitchen</a></li>
+          
+                    </ul>
+                  </li>
+<!--
                 <li><a href="Facilities.html" style="font-size: 13pt">Facilities</a></li>
-
+-->
                 <li><a href="#" style="font-size: 13pt; margin-left: 200px; color:#000">01834 844963</a></li>
 
                 <li><button type="button" class="btn btn-info btn-sm" style="margin-left: 30px" data-toggle="modal" data-target="#bookNow">Book Now</button></li>
-
-
+                <li><button onclick="javascript: openTour();" type="button" class="btn btn-success btn-sm" style="margin-left: 30px">Virtual Tour</button></li>
+                <li><a href="https://www.facebook.com/St-Teresas-Hotel-124991458082583" target="_blank" style="margin-left: 30px; padding-bottom: 30px"> <img src="assets/img/home/fbLogo.png" alt="Generic placeholder image"  height="40"></a></li>
                 <!--
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>

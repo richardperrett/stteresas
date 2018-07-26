@@ -22,3 +22,17 @@
     padding-left: 20px
 }
 
+.facilitiesHeader {
+
+    font-family: Arial;
+    color: grey;
+    font-size: 16pt;
+    font-weight: bold
+}
+
+.facilitiesText {
+
+    font-family: Arial;
+    color: grey;
+    font-size: 14pt
+}

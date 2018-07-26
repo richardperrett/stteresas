@@ -35,6 +35,14 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+      <script type="text/javascript">
+      function openTour(){
+        
+          var myWindow = window.open("https://cdn.instavr.co/html/yxKxvxHpfS0i9lhNFVBy_app.html?bust=9ra2a3qx3zc", "St Teresa's Tenby - Virtual Tour");
+          
+        }
+      </script>  
+
         <div class="navbar-wrapper" align="center" style="max-width: 1200px">
       <div class="container">
 
@@ -55,10 +63,23 @@
               
                 <li><a href="Rooms.html" style="font-size: 13pt">Rooms</a></li>
                 
-
+                
+                <li class="dropdown">
+                    <a href="#"  style="font-size: 13pt" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Facilities<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="Facilities.html">General Facilities</a></li>
+                      <li><a href="Facilities.html#ArchKitchenInfo">The Arch Kitchen</a></li>
+          
+                    </ul>
+                  </li>
+<!--
                 <li><a href="Facilities.html" style="font-size: 13pt">Facilities</a></li>
+-->
+               
 
-                <button type="button" class="btn btn-info btn-sm" style="margin-left: 300px" data-toggle="modal" data-target="#bookNow">Book Now</button>
+                <button type="button" class="btn btn-info btn-sm" style="margin-left: 200px" data-toggle="modal" data-target="#bookNow">Book Now</button>
+                <button onclick="javascript: openTour();" type="button" class="btn btn-success btn-sm" style="margin-left: 30px">Virtual Tour</button>
+                
                 <!--
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
